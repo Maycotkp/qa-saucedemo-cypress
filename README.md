@@ -1,10 +1,16 @@
 # Automation - SauceDemo
 ## Sobre o projeto
-Projeto de automação de testes end-to-end (E2E) utilizando Cypress e BDD (Gherkin), aplicado ao site [SauceDemo](https://www.saucedemo.com/). O objetivo é validar os principais fluxos de um sistema de e-commerce, garantindo a qualidade das funcionalidades críticas.
----
+<p style="font-size:14px;">
+Projeto de automação de testes end-to-end (E2E) utilizando Cypress e BDD (Gherkin), aplicado ao site <a href="https://www.saucedemo.com/">SauceDemo</a>. O objetivo é validar os principais fluxos de um sistema de e-commerce, garantindo a qualidade das funcionalidades críticas.
+</p>
+
+
 ## Objetivo
+<p style="font-size:14px;">
 Validar funcionalidades essenciais como autenticação, navegação de produtos e operações de carrinho.
----
+</p>
+
+
 ## Escopo de Testes
 ### Funcionalidades testadas
 * Login (válido e inválido)
@@ -12,17 +18,17 @@ Validar funcionalidades essenciais como autenticação, navegação de produtos 
 * Adição ao carrinho
 * Remoção do carrinho
 * Logout
----
+
 ## Estratégia de Teste
 * Testes funcionais
 * Testes E2E (End-to-End)
 * BDD (Behavior Driven Development)
----
+
 ## Tecnologias utilizadas
 * Cypress
 * JavaScript
 * Cucumber (BDD)
----
+
 ## Cenários de Teste (BDD)
 ### Login
 * Login com sucesso
@@ -34,10 +40,11 @@ Validar funcionalidades essenciais como autenticação, navegação de produtos 
 * Remover produto
 ### Logout
 * Sair do sistema
----
+
 ## Como executar o projeto
-npm install
+```bash
 npx cypress open
----
+```
+
 ## Sistema testado
 https://www.saucedemo.com
