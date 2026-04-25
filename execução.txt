@@ -1,0 +1,2 @@
+https://cloud.cypress.io/invitation/66688648-8bba-4a7b-9053-a71a0f0e2f41
+npx cypress run --record --key b57cce1b-76ae-4316-97a1-a27ac43cfbc5npx cypress run --record --key b57cce1b-76ae-4316-97a1-a27ac43cfbc5

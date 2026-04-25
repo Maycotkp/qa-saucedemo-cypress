@@ -13,7 +13,7 @@ module.exports = {
       overwrite: false,
       html: true,
       json: false,
-      timestamp: "mmddyyyy_HHMMss"
+      timestamp: "mmddyyyy_HHMMss" 
     }
-  },
+  }
 };
