@@ -1,0 +1,43 @@
+CT01 - Login com sucesso
+Dado que o usuário acessa a página de login
+Quando informa usuário "standard_user" e senha "secret_sauce"
+Então deve acessar a página de produtos
+
+CT02 - Login inválido
+Dado que o usuário acessa a página de login
+Quando informa usuário inválido e senha inválida
+Então deve exibir mensagem de erro
+
+CT03 - Usuário bloqueado
+Dado que o usuário acessa a página de login
+Quando informa usuário "locked_out_user" e senha válida
+Então deve exibir mensagem de usuário bloqueado
+
+CT04 - Listar produtos
+Dado que o usuário está logado
+Então deve visualizar a lista de produtos
+
+CT05 - Ordenar produtos por preço
+Dado que o usuário está na página de produtos
+Quando seleciona ordenação por preço
+Então os produtos devem ser exibidos em ordem correta
+
+CT06 - Adicionar produto ao carrinho
+Dado que o usuário está logado
+Quando adiciona um produto ao carrinho
+Então o carrinho deve conter 1 item
+
+CT07 - Remover produto do carrinho
+Dado que o usuário adicionou um produto
+Quando remove o produto
+Então o carrinho deve ficar vazio
+
+CT08 - Validar quantidade no carrinho
+Dado que o usuário adicionou 2 produtos
+Quando acessa o carrinho
+Então deve visualizar 2 itens
+
+CT09 - Logout
+Dado que o usuário está logado
+Quando realiza logout
+Então deve retornar para a tela de login
