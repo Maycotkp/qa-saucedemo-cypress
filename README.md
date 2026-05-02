@@ -42,9 +42,14 @@ Validar funcionalidades essenciais como autenticação, navegação de produtos 
 * Sair do sistema
 
 ## Como executar o projeto
-```bash
-npx cypress open
-```
+* Execução pelo Cypress navegador
+  ```bash
+  npx cypress open
+  ```
+* Execução pelo CMD
+  ```bash
+  npx cypress run
+  ```
 
 ## Sistema testado
 https://www.saucedemo.com
